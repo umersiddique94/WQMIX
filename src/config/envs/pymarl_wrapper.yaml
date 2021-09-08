@@ -1,0 +1,10 @@
+env: pymarl_wrapper
+
+env_args:
+  env_name: "matthew"
+
+
+gamma: 0.98
+t_max: 1000000000
+test_nepisode: 16 # Number of episodes to test for
+test_interval: 10000
